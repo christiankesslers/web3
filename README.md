@@ -7,13 +7,13 @@ To deploy this app:
 1. Clone this repository
 
 ```sh
-git clone git@github.com:dabit3/full-stack-web3.git
+git clone git@github.com:christiankesslers/web3.git
 ```
 
 2. Install the dependencies
 
 ```sh
-npm install
+pnpm install
 ```
 
 3. Run the local node
@@ -31,5 +31,5 @@ npx hardhat run scripts/deploy.js --network localhost
 5. Start the app
 
 ```sh
-npm start
+pnpm start
 ```
